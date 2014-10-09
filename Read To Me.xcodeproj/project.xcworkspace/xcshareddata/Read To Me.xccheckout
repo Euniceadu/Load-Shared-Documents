@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>55C3F297-E18E-4093-BC65-6A66D27D8E5E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Read To Me</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8F0B0927E8D0907153A2993B0731D82F64D980BA</key>
+		<string>https://github.com/Euniceadu/Load-Shared-Documents</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Read To Me.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8F0B0927E8D0907153A2993B0731D82F64D980BA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Euniceadu/Load-Shared-Documents</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8F0B0927E8D0907153A2993B0731D82F64D980BA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8F0B0927E8D0907153A2993B0731D82F64D980BA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Load-Shared-Documents</string>
+		</dict>
+	</array>
+</dict>
+</plist>
