@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8587B84319E511E3001C960E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587B84219E511E3001C960E /* AppDelegate.swift */; };
-		8587B84519E511E3001C960E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587B84419E511E3001C960E /* ViewController.swift */; };
 		8587B84819E511E3001C960E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8587B84619E511E3001C960E /* Main.storyboard */; };
 		8587B84A19E511E3001C960E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8587B84919E511E3001C960E /* Images.xcassets */; };
 		8587B85619E511E3001C960E /* Read_To_MeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587B85519E511E3001C960E /* Read_To_MeTests.swift */; };
@@ -30,7 +29,6 @@
 		8587B83D19E511E3001C960E /* Read To Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Read To Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8587B84119E511E3001C960E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8587B84219E511E3001C960E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8587B84419E511E3001C960E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8587B84719E511E3001C960E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8587B84919E511E3001C960E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8587B84F19E511E3001C960E /* Read To MeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Read To MeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,7 +80,6 @@
 				85C52C9819E6749C00FB98C9 /* LoadViewController.swift */,
 				85C52C9619E66C3800FB98C9 /* TableViewController.swift */,
 				8587B84219E511E3001C960E /* AppDelegate.swift */,
-				8587B84419E511E3001C960E /* ViewController.swift */,
 				8587B84619E511E3001C960E /* Main.storyboard */,
 				8587B84919E511E3001C960E /* Images.xcassets */,
 				8587B84019E511E3001C960E /* Supporting Files */,
@@ -214,7 +211,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8587B84519E511E3001C960E /* ViewController.swift in Sources */,
 				85C52C9719E66C3800FB98C9 /* TableViewController.swift in Sources */,
 				85C52C9919E6749C00FB98C9 /* LoadViewController.swift in Sources */,
 				8587B84319E511E3001C960E /* AppDelegate.swift in Sources */,
