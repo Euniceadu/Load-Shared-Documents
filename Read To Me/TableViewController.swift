@@ -24,7 +24,7 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     override func viewWillAppear(animated: Bool) {
     if ((self.navigationController) != nil) {
-    self.navigationController.navigationBar.hidden = true;
+        self.navigationController!.navigationBar.hidden = true;
     }
     }
     
@@ -33,22 +33,22 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
         // Dispose of any resources that can be recreated.
     }
     
-    func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.filesList.count
     }
     
-    func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell: UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier("cell") as UITableViewCell
-        cell.textLabel.text = self.filesList[indexPath.row]
+        cell.textLabel!.text = self.filesList[indexPath.row]
         return cell
     }
     
     func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
         var vcid: String = "loadView";
-        let readerResult: LoadViewController = self.storyboard.instantiateViewControllerWithIdentifier(vcid) as LoadViewController
+        let readerResult: LoadViewController = self.storyboard!.instantiateViewControllerWithIdentifier(vcid) as LoadViewController
         readerResult.selectedFileName = self.filesList[indexPath.row]
 
-        self.navigationController.pushViewController(readerResult, animated: true)
+        self.navigationController!.pushViewController(readerResult, animated: true)
 //        [self.navigationController pushViewController:readerResult animated:YES];
 //        self.displayAlert("You selected cell #\(indexPath.row)!")
         
